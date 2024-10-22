@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Care - Self-Assessment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section with Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="self-assessment.html">Self-Assessment</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Self-Assessment Quiz Section -->
+    <section class="assessment">
+        <h1>Self-Assessment Quiz</h1>
+        <p>Answer the following questions to assess your mental well-being. This quiz is designed to help you reflect on your mental health.</p>
+
+        <form id="quiz-form">
+            <label for="question1">1. I often feel nervous or anxious:</label>
+            <select id="question1">
+                <option value="0">Never</option>
+                <option value="1">Rarely</option>
+                <option value="2">Sometimes</option>
+                <option value="3">Often</option>
+            </select>
+
+            <label for="question2">2. I find it hard to relax:</label>
+            <select id="question2">
+                <option value="0">Never</option>
+                <option value="1">Rarely</option>
+                <option value="2">Sometimes</option>
+                <option value="3">Often</option>
+            </select>
+
+            <label for="question3">3. I feel overwhelmed by stress:</label>
+            <select id="question3">
+                <option value="0">Never</option>
+                <option value="1">Rarely</option>
+                <option value="2">Sometimes</option>
+                <option value="3">Often</option>
+            </select>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+        <!-- Result Section -->
+        <div id="result"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Mind Care. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="js/selfassessment.js"></script>
+</body>
+</html>

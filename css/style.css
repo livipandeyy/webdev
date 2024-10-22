@@ -1,0 +1,452 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004c99;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e6f7ff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #004c99;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #004c99;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background-color: #0077cc;
+}
+
+/* Featured Content Section */
+.featured-content {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-content h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #004c99;
+}
+
+.featured-content .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-content article {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.featured-content h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.featured-content p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.featured-content .btn {
+    background-color: #004c99;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.featured-content .btn:hover {
+    background-color: #0077cc;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004c99;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Resources Page Styles */
+.resources {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.resources h1 {
+    color: #004c99;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.resources p {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.resource-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.resource-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resource-item h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.resource-item p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.resource-item .btn {
+    background-color: #004c99;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.resource-item .btn:hover {
+    background-color: #0077cc;
+}
+
+/* Self-Assessment Page Styles */
+.assessment {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.assessment h1 {
+    color: #004c99;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.assessment p {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+form label {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #004c99;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #0077cc;
+}
+
+/* Result Section */
+#result {
+    margin-top: 30px;
+    font-size: 1.3em;
+    color: #004c99;
+}
+
+
+/* Community Page Styles */
+.community {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.community h1, .community h2 {
+    color: #004c99;
+}
+
+.community p {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.discussions {
+    margin-bottom: 40px;
+}
+
+.discussion {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.discussion h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.comments {
+    margin-top: 10px;
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comments p {
+    font-size: 1em;
+    color: #333;
+}
+
+.view-comments-btn {
+    background-color: #004c99;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.view-comments-btn:hover {
+    background-color: #0077cc;
+}
+
+/* New Discussion Form */
+.new-discussion {
+    margin-top: 50px;
+    text-align: left;
+    display: inline-block;
+    max-width: 600px;
+}
+
+.new-discussion label {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.new-discussion input, .new-discussion textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.new-discussion button {
+    background-color: #004c99;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.new-discussion button:hover {
+    background-color: #0077cc;
+}
+
+
+/* Help Page Styles */
+.help-page {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.help-page h1 {
+    color: #004c99;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.help-page p {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.professional-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.professional {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.professional:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.professional img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.professional h3 {
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.professional p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.details-btn, .schedule-btn {
+    background-color: #004c99;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.details-btn:hover, .schedule-btn:hover {
+    background-color: #0077cc;
+}
+
+.details, .appointment-form {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.appointment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.appointment-form button {
+    background-color: #004c99;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

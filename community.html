@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Care - Community</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section with Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="self-assessment.html">Self-Assessment</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Community Forum Section -->
+    <section class="community">
+        <h1>Community Forum</h1>
+        <p>Join discussions and share your experiences. Feel free to start a new topic or contribute to existing ones.</p>
+
+        <!-- Existing Discussions -->
+        <div class="discussions">
+            <h2>Recent Discussions</h2>
+            
+            <div class="discussion">
+                <h3>How do you cope with anxiety?</h3>
+                <button class="view-comments-btn" onclick="toggleComments('comments1')">View Comments</button>
+                <div id="comments1" class="comments" style="display: none;">
+                    <p>User1: I try breathing exercises to calm down.</p>
+                    <p>User2: Meditation helps me control my anxiety.</p>
+                </div>
+            </div>
+
+            <div class="discussion">
+                <h3>What are some good self-care routines?</h3>
+                <button class="view-comments-btn" onclick="toggleComments('comments2')">View Comments</button>
+                <div id="comments2" class="comments" style="display: none;">
+                    <p>User3: I love journaling in the mornings, it clears my mind.</p>
+                    <p>User4: Taking short walks and listening to music works for me!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start a New Discussion -->
+        <div class="new-discussion">
+            <h2>Start a New Discussion</h2>
+            <form id="discussion-form">
+                <label for="topic">Topic:</label>
+                <input type="text" id="topic" required>
+
+                <label for="description">Discussion:</label>
+                <textarea id="description" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Mind Care. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="js/communityscript.js"></script>
+</body>
+</html>
